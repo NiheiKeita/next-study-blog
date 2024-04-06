@@ -12,8 +12,8 @@ jobs:
         run: npm install
       - name: Run Test
         run: npm run test:coverage
-      - name: Upload Coverage
-        uses: codecov/codecov-action@v1
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          fail_ci_if_error: 'true'
+      # - name: Upload Coverage
+      #   uses: codecov/codecov-action@v1
+      #   with:
+      #     token: ${{ secrets.CODECOV_TOKEN }}
+      #     fail_ci_if_error: 'true'
