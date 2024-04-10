@@ -16,12 +16,14 @@
     "sonar": "sonar-scanner"
   },
   "dependencies": {
+    "@notionhq/client": "^2.2.14",
     "@storybook/jest": "^0.2.3",
     "@storybook/testing-library": "^0.2.2",
     "@vitejs/plugin-react": "^4.2.1",
     "jest-environment-jsdom": "^29.7.0",
     "jest-sonar-reporter": "^2.0.0",
     "next": "14.1.0",
+    "notion-to-md": "^3.1.1",
     "react": "^18",
     "react-dom": "^18",
     "ts-jest": "^29.1.2"
